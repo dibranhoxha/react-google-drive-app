@@ -1,4 +1,4 @@
-import { css } from 'styled-components';
+import { css } from "styled-components";
 
 const style = () => css`
   flex: 1;
@@ -7,10 +7,10 @@ const style = () => css`
     height: 100vh;
     align-items: center;
     justify-content: center;
-    background-color: #dfdfdf;
+    ${"" /* background-color: #dfdfdf; */}
   }
   .source-container {
-    background-color: #fff;
+    background-color: #eee;
     display: flex;
     flex: 1,
     padding: 20px;
